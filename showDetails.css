@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  color: white;
+  background-color: #0b354d;
+}
+
+.header input {
+  padding: 10px;
+  border: none;
+  /* border-radius: 25px; */
+  width: 200px;
+  outline-color: rgb(187, 158, 30);
+}
+
+.header h2 {
+  cursor: pointer;
+  transition: 200ms;
+}
+
+.header h2:hover {
+  color: rgb(187, 158, 30);
+}
+
+.search-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  margin-left: 20px;
+  border: 2px solid rgb(187, 158, 30);
+  letter-spacing: 1px;
+  transition: 200ms;
+}
+
+.search-button:hover {
+  background-color: rgb(187, 158, 30);
+  color: #0b354d;
+}
+
+.container {
+  position: absolute;
+  display: none;
+  background-color: white;
+  color: black;
+  /* padding: 10px; */
+  text-align: center;
+  width: 200px;
+  z-index: 99999;
+}
+
+.container2 {
+  height: 70%;
+  padding: 10px 400px;
+}
+
+.container2 img {
+  height: 900px;
+}
+
+.container2 h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.container2 h3 {
+  margin: 10px 0;
+}
+
+.summary {
+  margin: 12px 0;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.right-wrapper p {
+  margin: 7px 0;
+}
+
+.left-wrapper {
+  height: 70%;
+  margin-right: 30px;
+}

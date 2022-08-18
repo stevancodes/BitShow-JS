@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <header>
+      <h2>BitShow</h2>
+      <div class="search-div">
+        <input
+          type="text"
+          name="search"
+          id="search"
+          placeholder="Search a show..."
+          oninput="searchQueryData()"
+        />
+        <button class="search-button">Search</button>
+        <div class="container"></div>
+      </div>
+    </header>
+    <h1 id="popular">Popular Shows</h1>
+    <div class="grid-movies"></div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
